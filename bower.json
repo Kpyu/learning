@@ -1,0 +1,10 @@
+{
+  "name": "jsirius",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~2.3.0",
+    "jquery": "~1.11.0",
+    "ztree":"*"
+  },
+  "devDependencies": {}
+}
