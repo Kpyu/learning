@@ -4,14 +4,46 @@
  * @author    kpyu(<a href="mailto:hellomozilla@gmail.com">hellomozilla@gmail.com</a>)
  */
 /**
- * 框架核心入口
+ * 框架内核
  */
-;(function baseInit(){
+;(function baseInit(global){
     "use strict";
-    var ArrayProto = Array.prototype,
-        ObjProto = Object.prototype,
-        FuncProto = Function.prototype;
+    var
+        version = '1.0.{Version}',
+        rootNameSpace = global,
+        X = rootNameSpace.X,
+        /**
+         * 版本控制
+         * @type {Object}
+         */
+        VERSIONS = {},
+        /**
+         * 模块缓存
+         * @type {[type]}
+         */
+        MODULES = {},
+        /**
+         * 配置对象
+         * @type {Object}
+         */
+        option = {},
 
+        ArrayProto = Array.prototype,
+        ObjProto = Object.prototype,
+        FuncProto = Function.prototype,
+        undefined,
+        /**
+         * 消息收集
+         * @param  {[type]} msg  [description]
+         * @param  {[type]} tag  [description]
+         * @param  {[type]} type [description]
+         * @return {[type]}      [description]
+         */
+        log = function(msg,tag,type){
+
+        } ;
+      
+debugger;
 
     var guid = function() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -29,4 +61,14 @@
 
     }
 
-});
+
+    /**
+     * XJS 对象原型
+     *
+     *
+     *
+     *
+     * 
+     */
+     X = function(){}
+})(this);
