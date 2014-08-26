@@ -1,11 +1,12 @@
 /**
- * Created by kpYu on 2014/7/8.
+ * JSirius 2009 kpyu ,All rights reserved
+ * @version [1.0]
+ * @author    kpyu(<a href="mailto:hellomozilla@gmail.com">hellomozilla@gmail.com</a>)
  */
 /**
  * 框架核心入口
  */
-(function baseInit(){
-
+;(function baseInit(){
     "use strict";
     var ArrayProto = Array.prototype,
         ObjProto = Object.prototype,
