@@ -1,5 +1,5 @@
 /**
- * JSirius 2009 kpyu ,All rights reserved
+ * XJS  2014 kpyu ,All rights reserved
  * @version [1.0]
  * @author    kpyu(<a href="mailto:hellomozilla@gmail.com">hellomozilla@gmail.com</a>)
  */
