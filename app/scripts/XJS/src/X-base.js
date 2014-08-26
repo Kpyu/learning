@@ -70,5 +70,5 @@ debugger;
      *
      * 
      */
-     X = function(){}
+     X = function(version,isCreateNew){}
 })(this);
