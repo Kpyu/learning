@@ -1,6 +1,6 @@
 /**
  * XJS  2014 kpyu ,All rights reserved
- * @version [1.0]
+ * @version [1.0.0]
  * @author    kpyu(<a href="mailto:hellomozilla@gmail.com">hellomozilla@gmail.com</a>)
  */
 /**
